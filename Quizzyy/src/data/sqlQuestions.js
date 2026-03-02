@@ -1,0 +1,22 @@
+export const sqlQuestions = [
+    { question: "Q1: What does SQL stands for?", a: "Structured Query Language", b: "Standard Query Language", c: "Strong Query Language", d: "Simple Query Language", ans: "1" },
+    { question: "Q2: Which SQL command is used to create a database?", a: "CREATE DATABASE", b: "MAKE DATABASE", c: "BUILD DATABASE", d: "ESTABLISH DATABASE", ans: "1" },
+    { question: "Q3: Which SQL command is used to delete a database?", a: "DROP DATABASE", b: "DELETE DATABASE", c: "REMOVE DATABASE", d: "DESTROY DATABASE", ans: "1" },
+    { question: "Q4: What is the purpose of the PRIMARY KEY constraint?", a: "To create a relationship between two tables", b: "To uniquely identify each record in a table", c: "To specify a default value for a column", d: "To define a column for large data", ans: "2" },
+    { question: "Q5: Which SQL command retrieves data from a database?", a: "GET", b: "FETCH", c: "SELECT", d: "RETRIEVE", ans: "3" },
+    { question: "Q6: What is the purpose of the GROUP BY clause?", a: "To filter out duplicate records", b: "To sort the result-set ascending", c: "To group the result-set by columns", d: "To join two or more tables", ans: "3" },
+    { question: "Q7: Which SQL command updates existing data?", a: "UPDATE", b: "MODIFY", c: "ALTER", d: "CHANGE", ans: "1" },
+    { question: "Q8: What is the purpose of the HAVING clause?", a: "To filter groups based on a condition", b: "To sort the result-set descending", c: "To join two or more tables", d: "To specify a default value", ans: "1" },
+    { question: "Q9: Which SQL command inserts new data?", a: "INSERT INTO", b: "ADD TO", c: "NEW INTO", d: "CREATE IN", ans: "1" },
+    { question: "Q10: What is the purpose of the ORDER BY clause?", a: "To filter duplicates", b: "To group by columns", c: "To sort ascending or descending", d: "To join tables", ans: "3" },
+    { question: "Q11: What is the purpose of the INDEX keyword?", a: "To create a primary key", b: "To create a foreign key", c: "To improve query performance", d: "To create a view", ans: "3" },
+    { question: "Q12: Which SQL statement modifies table structure?", a: "ALTER TABLE", b: "CREATE TABLE", c: "DROP TABLE", d: "TRUNCATE TABLE", ans: "1" },
+    { question: "Q13: What is the purpose of the JOIN clause?", a: "To combine rows from tables", b: "To filter rows", c: "To sort rows", d: "To group rows", ans: "1" },
+    { question: "Q14: Which function calculates the average value?", a: "SUM", b: "AVG", c: "MAX", d: "MIN", ans: "2" },
+    { question: "Q15: What is the purpose of the VIEW keyword?", a: "To create a physical table", b: "To create a virtual table", c: "To create an index", d: "To create a stored procedure", ans: "2" },
+    { question: "Q16: Which statement deletes a row from a table?", a: "DELETE", b: "DROP", c: "TRUNCATE", d: "UPDATE", ans: "1" },
+    { question: "Q17: What is the purpose of TRANSACTION?", a: "To ensure data consistency and integrity", b: "To improve query performance", c: "To create a backup", d: "To create a new database", ans: "1" },
+    { question: "Q18: Which clause filters rows based on a condition?", a: "WHERE", b: "FROM", c: "GROUP BY", d: "HAVING", ans: "1" },
+    { question: "Q19: What is the purpose of STORED PROCEDURE?", a: "To create a reusable block of code", b: "To create a view", c: "To create an index", d: "To create a table", ans: "1" },
+    { question: "Q20: Which statement creates a new database?", a: "CREATE DATABASE", b: "CREATE TABLE", c: "CREATE INDEX", d: "CREATE VIEW", ans: "1" }
+]
